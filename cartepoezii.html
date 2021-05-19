@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css">
+    <link href="https://fonts.googleapis.com/css?family=Cardo|Montserrat" rel="stylesheet">
+    <link rel="stylesheet" href="stilcarte.css">
+    <title>Cartea digitala a unor poeti timizi</title>
+</head>
+
+<body id="body">
+    <div class="container">
+        <nav class="nav">
+            <ul class="nav__container">
+                <li class="nav__item">
+                    <button class="nav__link" id="poezie-link">Poezii</button>
+                </li>
+                <li class="nav__item">
+                    <button class="nav__link" id="desprenoi-link">Despre acest site</button>
+                </li>
+            </ul>
+        </nav>
+       
+        <main id='main'>
+        </main>
+    </div>
+    <div class="modal__overlay">
+        <div class="modal">
+            <div class="modal__content">
+                <h2 class="title">Adauga detalii poezie</h2>
+                <div class="inputs__container">
+                    <input id="titlu" type="text" class="input" placeholder="Adauga titlu">
+                    <input id="tema" type="text" class="input" placeholder="Specifica tema">
+                    <input id="autor" type="text" class="input" placeholder="Introdu numele tau sau un nickname">
+                    <input id="imaginereprezentativa" type="text" class="input input--img" placeholder="Adauga o imagine reprezentativa(url-ul acesteia)">
+                </div>
+                <textarea id="poezia" class="textarea" name="poezia" cols="28" rows="7" placeholder="Scrie aici poezia"></textarea>
+                <div class="modal__buttons">
+                    <button id="cancel" type="button" class="button">Cancel</button>
+                    <button id="save" type="button" class="button button--lightblue">Save</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="scriptcarte.js"></script>
+</html>
