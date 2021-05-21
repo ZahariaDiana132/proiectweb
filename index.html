@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css">
+    <link href="https://fonts.googleapis.com/css?family=Cardo|Montserrat" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Pattaya&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Cartea digitala a unor poeti timizi</title>
+</head>
+
+<body id="body">
+    <div class="mesaj_intampinare">
+        <h1 id="titlumesaj">Bun venit pe site-ul meu!</h1>
+        <br>
+        <h1 id="mesajnou"> Utilizare placuta!</h1>
+        <br>
+        <h1 id="txt"></h1>
+        <br>
+        <h1 id="textt"></h1>
+        
+    </div>
+    <div class="container">
+        <nav class="nav">
+            <ul class="nav__container">
+                <li class="nav__item">
+                    <button  class="button" id="desprenoi-link">Informatii despre site</button>
+                </li>
+                <li class="nav__item">
+                    <button class="button" id="poezie-link">Intrarea in lumea poeziilor</button>
+                </li>
+                <li class="nav__item" >
+                    <button onclick="startTime()" class="button" >Ora exacta</button>
+                </li>
+                <li >
+                    <button onclick="myfunction()" class="haha" >pare ca se apasa</button>
+                </li>
+                
+            </ul>
+        </nav>
+        <main id='main'>
+            <div class="add__poezie">
+                <button id="add" type="button" class="button"> Adauga poezie</button>
+            </div>
+        </main>
+        
+        <div class="imagineprez" id="imag" ><img src="https://backgroundcheckall.com/wp-content/uploads/2017/12/table-of-contents-background-8.jpg" alt="Magic book"  > </div>
+        <div class="heart"></div>  
+    </div>
+    <div class="modal__overlay">
+        <div class="modal">
+            <div class="modal__content">
+                <h2 class="title">Adauga detalii poezie</h2>
+                <div class="inputs__container">
+                    <input id="formTitle" type="text" class="input" placeholder="Adauga titlu">
+                    <input id="formimaginereprezentativa" type="text" class="input input_img" placeholder="Adauga o imagine reprezentativa(url-ul acesteia)">
+                </div>
+                <textarea id="formtextpoezie" class="textarea" name="textpoezie" cols="28" rows="7" placeholder="Scrie aici poezia"></textarea>
+                <div class="modal__buttons">
+                    <button id="cancel" type="button" class="button">Cancel</button>
+                    <button id="save" type="button" class="button button--lightgreen">Save</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="bottomline">
+        <p>&copy;Dia 132</p>
+    </footer>
+</body>
+<script src="script.js"></script>
+
+</html>

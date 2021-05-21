@@ -1,0 +1,1124 @@
+.bottomline
+{ font-size: larger;
+}
+.heart 
+ {
+
+    background-color: darkred;
+    display: inline-block;
+    height: 50px;
+    margin: 10px 10px;
+    position: relative;
+    top: 0;
+    transform: rotate(-45deg);
+    position: absolute; 
+    left: 45%; top: 45%;
+    width: 50px;
+ }
+  
+  .heart:before,
+  .heart:after 
+  {
+    content: "";
+    background-color: darkred;
+    border-radius: 50%;
+    height: 50px;
+    position: absolute;
+    width: 50px;
+  }
+  
+  .heart:before 
+  {
+    top: -25px;
+    left: 0;
+  }
+  
+  .heart:after 
+  {
+    left: 25px;
+    top: 0;
+  }
+
+  @keyframes heartbeat {
+    0% {
+      transform: scale( 0.50 );    
+    }
+    50%{transform: scale( 1.5);}
+  }
+
+  .heart
+   {
+
+      margin-top: 2170px;
+      margin-left: 53px;
+    animation: heartbeat 4s infinite;
+  }
+
+
+html 
+ {
+    font-family: 'Pattaya', sans-serif;
+    color: lightgreen;
+ }
+
+ body {
+    line-height: 0.8;
+    background-image: url("https://th.bing.com/th/id/R17f9d2d605d62a6a5908ba9d7ab23433?rik=1Ge2eZvtCg4EIQ&riu=http%3a%2f%2fpic.uuhy.com%2fuploads%2f2014%2f11%2f24%2ffantasywallpaper10.jpg&ehk=XZaUpk%2fK%2fRYXsEdYDHPSqpQ7P%2fH6ccto8NeJy3uXdQc%3d&risl=&pid=ImgRaw");
+      }
+
+ h1{ background: black;}
+
+
+ p {
+    background: url("https://www.antica.su/sites/default/files/newcollect/ceramica-alta/legno-di-volta-cucine/plitka-acero-10h10-0-82.jpg");
+    margin-bottom: 30px;
+    padding-left: 30px;
+    line-height: 1.9;
+    color: black;
+  }
+
+ img {
+    width: 90%;
+     }
+
+ .mesaj_intampinare
+  {
+
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 150px;
+    font-size: larger;
+  }
+
+ .imagineprez
+   {
+    display: flex;
+    align-items: center;
+    width: 15cm;
+    height: 14cm;
+    margin-left: 410px;
+    margin-top: 0px;
+  }
+
+ .container 
+   {
+    margin: 0 auto;
+    width: 1280px;
+   }
+
+ .nav 
+    {
+    display: flex;
+    justify-content: left;
+    background: none;
+    margin-left: 450px;
+    border-radius: 0px;
+     }
+
+ .nav__container 
+   {
+    list-style-type: none;
+    padding: 35px;
+    display: flex;
+    flex-direction: column;  
+   }
+
+  .nav__item 
+   {
+    display: block;
+    font-size: 20px;
+    margin: 5px 5px 5px 5px;
+    padding: 0;
+    align-content: center;
+   }
+
+  .haha{ cursor: pointer; }
+
+ .add__container 
+  {
+    display: flex;
+    justify-content:space-around;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .button {
+    background: black;
+    color:lightgreen;
+    border: 1px ;
+    border-radius: 10px;
+    font-size: 14px;
+    height: 60px;
+    line-height: 1.3;
+    width: 300px;
+    text-transform: uppercase;
+    cursor: pointer;
+    }
+
+ .button__container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 60px;
+    }
+
+
+  .title 
+  {
+    line-height: 1;
+    color: black;
+    font-family: 'Pattaya', sans-serif;
+    font-size: 46px;
+    margin: 0 auto;
+    text-align: center;
+    width: 800px;
+    background: url("https://www.emaisondeco.com/img/co/329.jpg");
+  }
+
+
+  .title--spaced 
+ {
+    margin-top: 30px;
+    margin-bottom: 30px;
+ }
+
+ .info__container 
+ {
+    list-style-type: none;
+    background: url("https://www.antica.su/sites/default/files/newcollect/ceramica-alta/legno-di-volta-cucine/plitka-acero-10h10-0-82.jpg");
+    margin: 0px;
+    padding: 0px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    border-radius: 100px;
+ }
+
+ .info__item 
+ {
+    color: darkgreen;
+    margin-top: 10px;
+    display: inline-block;
+    font-family: 'Pattaya', sans-serif;
+    font-size: 20px;
+    padding-left: 50px;
+ }
+
+  .info__item__single
+  {
+    display: flex;
+    justify-content: center;
+    color: black;
+    font-family: 'Pattaya', sans-serif;
+    font-size: 20px;
+    margin-top: 10px;
+  }
+
+  span.info__item__single
+  {
+    display: flex;
+    justify-content: center;
+    color: black;
+    font-family: 'Pattaya', sans-serif;
+    font-size: 20px;
+    margin-top: 0;
+    padding: 0;
+  }
+ .content__container__single
+ {
+  display:flex;
+  justify-content: center;
+ }
+ .info__container__single
+  {
+    background: url("https://www.antica.su/sites/default/files/newcollect/ceramica-alta/legno-di-volta-cucine/plitka-acero-10h10-0-82.jpg");
+    border-radius: 100px;
+  }
+
+ .actions__container 
+  {
+    margin: 20px 0px 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: normal;
+  }
+
+ .actions__btn 
+ { 
+    background: none;
+    color: darkgreen;
+    border: none;
+   font-family: 'Pattaya', sans-serif;
+    font-size: 14px;
+    line-height: 1.3;
+    cursor: pointer;
+ }
+
+ .content__container 
+ {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-bottom: 35px;
+ }
+ .content__container:last-of-type 
+ {
+    border-left: 1px solid white;
+ }
+
+ .content__container__about
+ {
+    margin-top: 80px;
+    border-radius: 100px;
+    color: darkgreen;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border:none;
+ }
+ .show-modal 
+ {
+    overflow: hidden;
+ }
+
+ .show-modal .modal__overlay 
+{
+    display: flex;
+}
+
+ .modal__overlay 
+ {
+    background: url("https://www.antica.su/sites/default/files/newcollect/ceramica-alta/legno-di-volta-cucine/plitka-acero-10h10-0-82.jpg");
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    height: 100vh;
+    width: 100vw;
+    overflow: auto;
+    align-items: center;
+    justify-content: center;
+ }
+
+ .modal 
+  {
+    width: 1000px;
+    height: 750px;
+    box-shadow: 0 0 26px 6px;
+  }
+
+ .modal__content 
+ {
+    padding: 50px 75px;
+    background: url("https://www.antica.su/sites/default/files/newcollect/ceramica-alta/legno-di-volta-cucine/plitka-acero-10h10-0-82.jpg");
+ }
+
+ .inputs__container 
+ {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 50px;
+ }
+
+ .input 
+ {
+    width: 840px;
+    height: 35px;
+    border: 1px solid #9b9b9b;
+    border-radius: 5px;
+    font-size: 18px;
+    font-family: 'Cardo', serif;
+    padding: 0 5px;
+    margin-bottom: 25px;
+ }
+
+ .input_img 
+ {
+    width: 100%;
+ }
+
+ .textarea 
+ {
+    display: block;
+    border: 1px solid #9b9b9b;
+    border-radius: 5px;
+    font-size: 18px;
+    font-family: 'Pattaya', sans-serif;
+    width: 100%;
+    box-sizing: border-box;
+ }
+
+ .modal__buttons 
+ {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+ }
+
+ .button--lightgreen 
+ {
+    background: lightgreen;
+    color:black;
+    cursor: pointer;
+
+ }
+ .about__img__div
+ {
+ display: flex;
+ justify-content: center;
+ }
+
+@media(max-width:1280px){
+    .bottomline
+{ font-size: larger;
+}
+.heart 
+ {
+
+    background-color: darkred;
+    display: inline-block;
+    height: 50px;
+    margin: 10px 10px;
+    position: relative;
+    top: 0;
+    transform: rotate(-45deg);
+    position: absolute; 
+    left: 45%; top: 45%;
+    width: 50px;
+ }
+  
+  .heart:before,
+  .heart:after 
+  {
+    content: "";
+    background-color: darkred;
+    border-radius: 50%;
+    height: 50px;
+    position: absolute;
+    width: 50px;
+  }
+  
+  .heart:before 
+  {
+    top: -25px;
+    left: 0;
+  }
+  
+  .heart:after 
+  {
+    left: 25px;
+    top: 0;
+  }
+
+  @keyframes heartbeat {
+    0% {
+      transform: scale( 0.50 );    
+    }
+    50%{transform: scale( 1.5);}
+  }
+
+  .heart
+   {
+
+      margin-top: 2170px;
+      margin-left: 53px;
+    animation: heartbeat 4s infinite;
+  }
+
+
+html 
+ {
+    font-family: 'Pattaya', sans-serif;
+    color: lightgreen;
+ }
+
+ body {
+    line-height: 0.8;
+    background-image: url("https://th.bing.com/th/id/R17f9d2d605d62a6a5908ba9d7ab23433?rik=1Ge2eZvtCg4EIQ&riu=http%3a%2f%2fpic.uuhy.com%2fuploads%2f2014%2f11%2f24%2ffantasywallpaper10.jpg&ehk=XZaUpk%2fK%2fRYXsEdYDHPSqpQ7P%2fH6ccto8NeJy3uXdQc%3d&risl=&pid=ImgRaw");
+      }
+
+ h1{ background: black;}
+
+
+ p {
+    background: url("https://www.antica.su/sites/default/files/newcollect/ceramica-alta/legno-di-volta-cucine/plitka-acero-10h10-0-82.jpg");
+    margin-bottom: 30px;
+    padding-left: 30px;
+    line-height: 1.9;
+    color: black;
+  }
+
+ img {
+    width: 90%;
+     }
+
+ .mesaj_intampinare
+  {
+
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 150px;
+    font-size: larger;
+  }
+
+ .imagineprez
+   {
+    display: flex;
+    align-items: center;
+    width: 15cm;
+    height: 14cm;
+    margin-left: 410px;
+    margin-top: 0px;
+  }
+
+ .container 
+   {
+    margin: 0 auto;
+    width: 1280px;
+   }
+
+ .nav 
+    {
+    display: flex;
+    justify-content: left;
+    background: none;
+    margin-left: 450px;
+    border-radius: 0px;
+     }
+
+ .nav__container 
+   {
+    list-style-type: none;
+    padding: 35px;
+    display: flex;
+    flex-direction: column;  
+   }
+
+  .nav__item 
+   {
+    display: block;
+    font-size: 20px;
+    margin: 5px 5px 5px 5px;
+    padding: 0;
+    align-content: center;
+   }
+
+  .haha{ cursor: pointer; }
+
+ .add__container 
+  {
+    display: flex;
+    justify-content:space-around;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .button {
+    background: black;
+    color:lightgreen;
+    border: 1px ;
+    border-radius: 10px;
+    font-size: 14px;
+    height: 60px;
+    line-height: 1.3;
+    width: 300px;
+    text-transform: uppercase;
+    cursor: pointer;
+    }
+
+ .button__container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 60px;
+    }
+
+
+  .title 
+  {
+    line-height: 1;
+    color: black;
+    font-family: 'Pattaya', sans-serif;
+    font-size: 46px;
+    margin: 0 auto;
+    text-align: center;
+    width: 800px;
+    background: url("https://www.emaisondeco.com/img/co/329.jpg");
+  }
+
+
+  .title--spaced 
+ {
+    margin-top: 30px;
+    margin-bottom: 30px;
+ }
+
+ .info__container 
+ {
+    list-style-type: none;
+    background: url("https://www.antica.su/sites/default/files/newcollect/ceramica-alta/legno-di-volta-cucine/plitka-acero-10h10-0-82.jpg");
+    margin: 0px;
+    padding: 0px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    border-radius: 100px;
+ }
+
+ .info__item 
+ {
+    color: darkgreen;
+    margin-top: 10px;
+    display: inline-block;
+    font-family: 'Pattaya', sans-serif;
+    font-size: 20px;
+    padding-left: 50px;
+ }
+
+  .info__item__single
+  {
+    display: flex;
+    justify-content: center;
+    color: black;
+    font-family: 'Pattaya', sans-serif;
+    font-size: 20px;
+    margin-top: 10px;
+  }
+
+  span.info__item__single
+  {
+    display: flex;
+    justify-content: center;
+    color: black;
+    font-family: 'Pattaya', sans-serif;
+    font-size: 20px;
+    margin-top: 0;
+    padding: 0;
+  }
+ .content__container__single
+ {
+  display:flex;
+  justify-content: center;
+ }
+ .info__container__single
+  {
+    background: url("https://www.antica.su/sites/default/files/newcollect/ceramica-alta/legno-di-volta-cucine/plitka-acero-10h10-0-82.jpg");
+    border-radius: 100px;
+  }
+
+ .actions__container 
+  {
+    margin: 20px 0px 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: normal;
+  }
+
+ .actions__btn 
+ { 
+    background: none;
+    color: darkgreen;
+    border: none;
+   font-family: 'Pattaya', sans-serif;
+    font-size: 14px;
+    line-height: 1.3;
+    cursor: pointer;
+ }
+
+ .content__container 
+ {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-bottom: 35px;
+ }
+ .content__container:last-of-type 
+ {
+    border-left: 1px solid white;
+ }
+
+ .content__container__about
+ {
+    margin-top: 80px;
+    border-radius: 100px;
+    color: darkgreen;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border:none;
+ }
+ .show-modal 
+ {
+    overflow: hidden;
+ }
+
+ .show-modal .modal__overlay 
+{
+    display: flex;
+}
+
+ .modal__overlay 
+ {
+    background: url("https://www.antica.su/sites/default/files/newcollect/ceramica-alta/legno-di-volta-cucine/plitka-acero-10h10-0-82.jpg");
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    height: 100vh;
+    width: 100vw;
+    overflow: auto;
+    align-items: center;
+    justify-content: center;
+ }
+
+ .modal 
+  {
+    width: 1000px;
+    height: 750px;
+    box-shadow: 0 0 26px 6px;
+  }
+
+ .modal__content 
+ {
+    padding: 50px 75px;
+    background: url("https://www.antica.su/sites/default/files/newcollect/ceramica-alta/legno-di-volta-cucine/plitka-acero-10h10-0-82.jpg");
+ }
+
+ .inputs__container 
+ {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 50px;
+ }
+
+ .input 
+ {
+    width: 840px;
+    height: 35px;
+    border: 1px solid #9b9b9b;
+    border-radius: 5px;
+    font-size: 18px;
+    font-family: 'Cardo', serif;
+    padding: 0 5px;
+    margin-bottom: 25px;
+ }
+
+ .input_img 
+ {
+    width: 100%;
+ }
+
+ .textarea 
+ {
+    display: block;
+    border: 1px solid #9b9b9b;
+    border-radius: 5px;
+    font-size: 18px;
+    font-family: 'Pattaya', sans-serif;
+    width: 100%;
+    box-sizing: border-box;
+ }
+
+ .modal__buttons 
+ {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+ }
+
+ .button--lightgreen 
+ {
+    background: lightgreen;
+    color:black;
+ }
+ .about__img__div
+ {
+ display: flex;
+ justify-content: center;
+ }
+
+}
+@media(max-width:768px){
+    
+    
+    .bottomline
+    { font-size: larger;
+    }
+    .heart 
+     {
+    
+        background-color: darkred;
+        display: inline-block;
+        height: 50px;
+        margin: 10px 10px;
+        position: relative;
+        top: 0;
+        transform: rotate(-45deg);
+        position: absolute; 
+        left: 45%; top: 45%;
+        width: 50px;
+     }
+      
+      .heart:before,
+      .heart:after 
+      {
+        content: "";
+        background-color: darkred;
+        border-radius: 50%;
+        height: 50px;
+        position: absolute;
+        width: 50px;
+      }
+      
+      .heart:before 
+      {
+        top: -25px;
+        left: 0;
+      }
+      
+      .heart:after 
+      {
+        left: 25px;
+        top: 0;
+      }
+    
+      @keyframes heartbeat {
+        0% {
+          transform: scale( 0.50 );    
+        }
+        50%{transform: scale( 1.5);}
+      }
+    
+      .heart
+       {
+    
+          margin-top: 2170px;
+          margin-left: 53px;
+        animation: heartbeat 4s infinite;
+      }
+    
+    
+    html 
+     {
+        font-family: 'Pattaya', sans-serif;
+        color: lightgreen;
+     }
+    
+     body {
+        line-height: 0.8;
+        background-image: url("https://th.bing.com/th/id/R17f9d2d605d62a6a5908ba9d7ab23433?rik=1Ge2eZvtCg4EIQ&riu=http%3a%2f%2fpic.uuhy.com%2fuploads%2f2014%2f11%2f24%2ffantasywallpaper10.jpg&ehk=XZaUpk%2fK%2fRYXsEdYDHPSqpQ7P%2fH6ccto8NeJy3uXdQc%3d&risl=&pid=ImgRaw");
+          }
+    
+     h1{ background: black;}
+    
+    
+     p {
+        background: url("https://www.antica.su/sites/default/files/newcollect/ceramica-alta/legno-di-volta-cucine/plitka-acero-10h10-0-82.jpg");
+        margin-bottom: 30px;
+        padding-left: 30px;
+        line-height: 1.9;
+        color: black;
+      }
+    
+     img {
+        width: 90%;
+         }
+    
+     .mesaj_intampinare
+      {
+    
+        margin-top: 100px;
+        display: flex;
+        flex-direction: column;
+        margin-left: 150px;
+        font-size: larger;
+      }
+    
+     .imagineprez
+       {
+        display: flex;
+        align-items: center;
+        width: 15cm;
+        height: 14cm;
+        margin-left: 410px;
+        margin-top: 0px;
+      }
+    
+     .container 
+       {
+        margin: 0 auto;
+        width: 1280px;
+       }
+    
+     .nav 
+        {
+        display: flex;
+        justify-content: left;
+        background: none;
+        margin-left: 450px;
+        border-radius: 0px;
+         }
+    
+     .nav__container 
+       {
+        list-style-type: none;
+        padding: 35px;
+        display: flex;
+        flex-direction: column;  
+       }
+    
+      .nav__item 
+       {
+        display: block;
+        font-size: 20px;
+        margin: 5px 5px 5px 5px;
+        padding: 0;
+        align-content: center;
+       }
+    
+      .haha{ cursor: pointer; }
+    
+     .add__container 
+      {
+        display: flex;
+        justify-content:space-around;
+        margin-top: 20px;
+        margin-bottom: 20px;
+      }
+    
+      .button {
+        background: black;
+        color:lightgreen;
+        border: 1px ;
+        border-radius: 10px;
+        font-size: 14px;
+        height: 60px;
+        line-height: 1.3;
+        width: 300px;
+        text-transform: uppercase;
+        cursor: pointer;
+        }
+    
+     .button__container {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 60px;
+        }
+    
+    
+      .title 
+      {
+        line-height: 1;
+        color: black;
+        font-family: 'Pattaya', sans-serif;
+        font-size: 46px;
+        margin: 0 auto;
+        text-align: center;
+        width: 800px;
+        background: url("https://www.emaisondeco.com/img/co/329.jpg");
+      }
+    
+    
+      .title--spaced 
+     {
+        margin-top: 30px;
+        margin-bottom: 30px;
+     }
+    
+     .info__container 
+     {
+        list-style-type: none;
+        background: url("https://www.antica.su/sites/default/files/newcollect/ceramica-alta/legno-di-volta-cucine/plitka-acero-10h10-0-82.jpg");
+        margin: 0px;
+        padding: 0px;
+        display: grid;
+        grid-template-columns: 50% 50%;
+        margin-top: 30px;
+        margin-bottom: 40px;
+        border-radius: 100px;
+     }
+    
+     .info__item 
+     {
+        color: darkgreen;
+        margin-top: 10px;
+        display: inline-block;
+        font-family: 'Pattaya', sans-serif;
+        font-size: 20px;
+        padding-left: 50px;
+     }
+    
+      .info__item__single
+      {
+        display: flex;
+        justify-content: center;
+        color: black;
+        font-family: 'Pattaya', sans-serif;
+        font-size: 20px;
+        margin-top: 10px;
+      }
+    
+      span.info__item__single
+      {
+        display: flex;
+        justify-content: center;
+        color: black;
+        font-family: 'Pattaya', sans-serif;
+        font-size: 20px;
+        margin-top: 0;
+        padding: 0;
+      }
+     .content__container__single
+     {
+      display:flex;
+      justify-content: center;
+     }
+     .info__container__single
+      {
+        background: url("https://www.antica.su/sites/default/files/newcollect/ceramica-alta/legno-di-volta-cucine/plitka-acero-10h10-0-82.jpg");
+        border-radius: 100px;
+      }
+    
+     .actions__container 
+      {
+        margin: 20px 0px 20px 0;
+        display: flex;
+        flex-direction: column;
+        align-items: normal;
+      }
+    
+     .actions__btn 
+     { 
+        background: none;
+        color: darkgreen;
+        border: none;
+       font-family: 'Pattaya', sans-serif;
+        font-size: 14px;
+        line-height: 1.3;
+        cursor: pointer;
+     }
+    
+     .content__container 
+     {
+        margin-top: 80px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding-bottom: 35px;
+     }
+     .content__container:last-of-type 
+     {
+        border-left: 1px solid white;
+     }
+    
+     .content__container__about
+     {
+        margin-top: 80px;
+        border-radius: 100px;
+        color: darkgreen;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        border:none;
+     }
+     .show-modal 
+     {
+        overflow: hidden;
+     }
+    
+     .show-modal .modal__overlay 
+    {
+        display: flex;
+    }
+    
+     .modal__overlay 
+     {
+        background: url("https://www.antica.su/sites/default/files/newcollect/ceramica-alta/legno-di-volta-cucine/plitka-acero-10h10-0-82.jpg");
+        display: none;
+        position: fixed;
+        z-index: 1;
+        left: 0;
+        top: 0;
+        height: 100vh;
+        width: 100vw;
+        overflow: auto;
+        align-items: center;
+        justify-content: center;
+     }
+    
+     .modal 
+      {
+        width: 1000px;
+        height: 750px;
+        box-shadow: 0 0 26px 6px;
+      }
+    
+     .modal__content 
+     {
+        padding: 50px 75px;
+        background: url("https://www.antica.su/sites/default/files/newcollect/ceramica-alta/legno-di-volta-cucine/plitka-acero-10h10-0-82.jpg");
+     }
+    
+     .inputs__container 
+     {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin-top: 50px;
+     }
+    
+     .input 
+     {
+        width: 840px;
+        height: 35px;
+        border: 1px solid #9b9b9b;
+        border-radius: 5px;
+        font-size: 18px;
+        font-family: 'Cardo', serif;
+        padding: 0 5px;
+        margin-bottom: 25px;
+     }
+    
+     .input_img 
+     {
+        width: 100%;
+     }
+    
+     .textarea 
+     {
+        display: block;
+        border: 1px solid #9b9b9b;
+        border-radius: 5px;
+        font-size: 18px;
+        font-family: 'Pattaya', sans-serif;
+        width: 100%;
+        box-sizing: border-box;
+     }
+    
+     .modal__buttons 
+     {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 50px;
+     }
+    
+     .button--lightgreen 
+     {
+        background: lightgreen;
+        color:black;
+     }
+     .about__img__div
+     {
+     display: flex;
+     justify-content: center;
+     }    
+}
+
